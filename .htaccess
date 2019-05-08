@@ -1,0 +1,7 @@
+RewriteEngine On 
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+
+RewriteCond %{HTTP_HOST} ^wealthfundglobal.com
+RewriteRule (.*) https://www.wealthfundglobal.com/$1 [R=301,L]

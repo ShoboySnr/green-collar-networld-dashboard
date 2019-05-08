@@ -1,0 +1,77 @@
+.is-required
+{
+	font-weight: bold;
+	font-size: 13px;
+	font-style: italic;
+}
+.login-register-background
+{
+	background: url('../img/background/login-register.jpg') 50% center fixed;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    background-color: rgba(0,0,0,0.5);
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.login-footer {
+	font-family: 'Poppins', sans-serif;
+	color: #FFFFFF;
+	background-color: #000000;
+	background-size: 50%;
+}
+.login-footer a {
+	font-family: 'Poppins', sans-serif;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+.login-footer a:hover {
+	font-family: 'Poppins', sans-serif;
+	color: #FF0000;
+	text-decoration: underline;
+}
+.dashboard-logo-text
+{
+	font-size: 13px;
+}
+.icon-color
+{
+	color: blue;
+	font-size: 10px;
+}
+.dashboard-background-color
+{
+	background-color: skyblue;
+	font-family: 'Poppins', sans-serif;
+}
+.dashboard-background-color h4
+{
+	font-family: 'Poppins', sans-serif;
+	color: #FFFFFF;
+}
+.dashboard-background-color p
+{
+	font-family: Poppins, 'sans-serif';
+	color: #FFFFFF;
+}
+
+.mycustomlogo
+{
+	background: url('../img/logo/logowfg.jpg') 50% center fixed;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    background-color: rgba(0,0,0,0.5);
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.custom_height
+{
+	max-height: 450px;
+	overflow: scroll;
+	max-width: 100%;
+}
